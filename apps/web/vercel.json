@@ -3,6 +3,10 @@
     {
       "source": "/api/:path*",
       "destination": "https://api.opensunsama.com/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
